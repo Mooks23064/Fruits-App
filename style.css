@@ -1,0 +1,71 @@
+*{
+margin:0;
+}
+.container{
+  text-align: center;
+  padding-bottom: 20px;
+  color: #261643;
+  width:100%;
+  height: 100vh;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.fruitsGarden{
+  background: #df9f19;
+  border: 2px double #261643;
+  width:60%;
+  margin:auto;
+  margin-top: 80px;
+  padding-bottom: 12px;
+}
+/* Form */
+form{
+  margin-top: 16px;
+}
+#fruitName{
+  height: 20px;
+  padding: 8px;
+  font-size: 16px;
+  color: #261643;
+  font-weight: bold;
+  border-radius: 8px;
+  border: none;
+}
+#btn{
+  height: 36px;
+  color: white;
+  background: #261643;
+  font-weight: bold;
+  border-radius: 8px;
+  border:none;
+  cursor: pointer;
+}
+.fruits-box{
+  text-align: left;
+  list-style: none;
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
+  padding: 0;
+}
+.fruit{
+  background: #261643;
+  margin-top: 8px;
+  padding: 8px;
+  color: white;
+}
+.close{
+  float:right;
+  cursor: pointer;
+}
+.error{
+  background: red;
+  color: white;
+  padding: 8px;
+  margin: auto;
+  margin-top: 20px;
+  width: 80%;
+  text-align: left;
+  overflow: hidden;
+  box-sizing: border-box;
+}
